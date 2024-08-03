@@ -1,0 +1,59 @@
+body {
+    color: aliceblue;
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(46, 126, 247)
+}
+
+h2{
+   
+    border-top: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228)
+}
+.texto1 {
+    background: rgb(27, 11, 132);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto {
+    margin-right: 3%;
+}
+
+
+
+.cv {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.video {
+    padding: 20px;
+    padding-right: 20px;
+}
+
+.cv img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.cv img:hover {
+    opacity: 1.0;
+    border: 2px solid red;
+}
